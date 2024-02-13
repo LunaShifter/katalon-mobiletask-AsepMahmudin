@@ -1,0 +1,36 @@
+1
+00:00:00,107 --> 00:00:13,280
+1. startApplication("C:\Users\masep\Documents\Bootcamp\Assignment\Mobile\Android-Solodroid_E-CommerceApp Demo_3.2.0.apk\Solodroid_E-CommerceApp Demo_3.2.0.apk", true)
+
+2
+00:00:13,291 --> 00:00:19,180
+5. tap(findTestObject("Object Repository/Add to Cart/android.widget.FrameLayout"), 0)
+
+3
+00:00:19,192 --> 00:00:21,297
+9. tap(findTestObject("Object Repository/Add to Cart All Products/android.widget.TextView - Home  Furniture"), 0)
+
+4
+00:00:21,306 --> 00:00:23,282
+13. tap(findTestObject("Object Repository/Add to Cart All Products/android.widget.ImageView (2)"), 0)
+
+5
+00:00:23,298 --> 00:00:25,693
+17. tap(findTestObject("Object Repository/Add to Cart All Products/android.widget.Button - ADD TO CART"), 0)
+
+6
+00:00:25,718 --> 00:00:29,279
+21. setText(findTestObject("Object Repository/Add to Cart All Products/android.widget.EditText"), "5", 0)
+
+7
+00:00:29,289 --> 00:00:30,405
+25. tap(findTestObject("Object Repository/Add to Cart All Products/android.widget.Button - ADD"), 0)
+
+8
+00:00:30,413 --> 00:00:31,512
+29. pressBack()
+
+9
+00:00:31,522 --> 00:00:33,351
+33. pressBack()
+

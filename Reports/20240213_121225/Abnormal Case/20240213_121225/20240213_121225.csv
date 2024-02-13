@@ -1,0 +1,71 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Abnormal Case,,,,13-02-2024 12:12:32,13-02-2024 12:16:04,3m - 31.851s,PASSED
+,,,,,,,
+Test Cases/Ubnormal/Add To Cart - Fashions - Out of Stock,,,,13-02-2024 12:12:32,13-02-2024 12:13:29,56.426s,PASSED
+"startApplication(""C:\Users\masep\Documents\Bootcamp\Assignment\Mobile\Android-Solodroid_E-CommerceApp Demo_3.2.0.apk\Solodroid_E-CommerceApp Demo_3.2.0.apk"", true)",,,,13-02-2024 12:12:33,13-02-2024 12:13:08,34.915s,PASSED
+"tap(findTestObject(""Object Repository/Add to Cart/android.widget.FrameLayout""), 0)",,,,13-02-2024 12:13:08,13-02-2024 12:13:13,5.261s,PASSED
+"tap(findTestObject(""Object Repository/Add to Cart All Products/android.widget.TextView - Fashions""), 0)",,,,13-02-2024 12:13:13,13-02-2024 12:13:15,2.487s,PASSED
+"tap(findTestObject(""Object Repository/Add to Cart All Products/android.widget.ImageView""), 0)",,,,13-02-2024 12:13:15,13-02-2024 12:13:19,3.821s,PASSED
+"tap(findTestObject(""Object Repository/Add to Cart All Products/android.widget.Button - ADD TO CART""), 0)",,,,13-02-2024 12:13:19,13-02-2024 12:13:20,0.860s,PASSED
+"setText(findTestObject(""Object Repository/Add to Cart All Products/android.widget.EditText""), ""50"", 0)",,,,13-02-2024 12:13:20,13-02-2024 12:13:23,3.204s,PASSED
+"tap(findTestObject(""Object Repository/Add to Cart All Products/android.widget.Button - ADD""), 0)",,,,13-02-2024 12:13:23,13-02-2024 12:13:24,1.112s,PASSED
+pressBack(),,,,13-02-2024 12:13:24,13-02-2024 12:13:26,1.578s,PASSED
+pressBack(),,,,13-02-2024 12:13:26,13-02-2024 12:13:27,0.604s,PASSED
+Video,,,,13-02-2024 12:13:29,13-02-2024 12:13:29,0.002s,PASSED
+,,,,,,,
+Test Cases/Ubnormal/Add To Cart - Furniture - Out Of Stock,,,,13-02-2024 12:13:29,13-02-2024 12:14:07,37.939s,PASSED
+"startApplication(""C:\Users\masep\Documents\Bootcamp\Assignment\Mobile\Android-Solodroid_E-CommerceApp Demo_3.2.0.apk\Solodroid_E-CommerceApp Demo_3.2.0.apk"", true)",,,,13-02-2024 12:13:29,13-02-2024 12:13:42,12.983s,PASSED
+"tap(findTestObject(""Object Repository/Add to Cart/android.widget.FrameLayout""), 0)",,,,13-02-2024 12:13:42,13-02-2024 12:13:48,6.469s,PASSED
+"tap(findTestObject(""Object Repository/Add to Cart All Products/android.widget.TextView - Home  Furniture""), 0)",,,,13-02-2024 12:13:48,13-02-2024 12:13:51,2.521s,PASSED
+"tap(findTestObject(""Object Repository/Add to Cart All Products/android.widget.ImageView (2)""), 0)",,,,13-02-2024 12:13:51,13-02-2024 12:13:53,2.495s,PASSED
+"tap(findTestObject(""Object Repository/Add to Cart All Products/android.widget.Button - ADD TO CART""), 0)",,,,13-02-2024 12:13:53,13-02-2024 12:13:56,3.184s,PASSED
+"setText(findTestObject(""Object Repository/Add to Cart All Products/android.widget.EditText""), ""50"", 0)",,,,13-02-2024 12:13:56,13-02-2024 12:14:00,4.025s,PASSED
+"tap(findTestObject(""Object Repository/Add to Cart All Products/android.widget.Button - ADD""), 0)",,,,13-02-2024 12:14:00,13-02-2024 12:14:02,1.142s,PASSED
+pressBack(),,,,13-02-2024 12:14:02,13-02-2024 12:14:03,1.143s,PASSED
+pressBack(),,,,13-02-2024 12:14:03,13-02-2024 12:14:05,1.778s,PASSED
+Video,,,,13-02-2024 12:14:07,13-02-2024 12:14:07,0.000s,PASSED
+,,,,,,,
+Test Cases/Ubnormal/Add To Chart - Baby Gear - Out Of Stock,,,,13-02-2024 12:14:07,13-02-2024 12:14:37,30.295s,PASSED
+"startApplication(""C:\Users\masep\Documents\Bootcamp\Assignment\Mobile\Android-Solodroid_E-CommerceApp Demo_3.2.0.apk\Solodroid_E-CommerceApp Demo_3.2.0.apk"", true)",,,,13-02-2024 12:14:07,13-02-2024 12:14:17,9.810s,PASSED
+"tap(findTestObject(""Object Repository/Add to Cart/android.widget.FrameLayout""), 0)",,,,13-02-2024 12:14:17,13-02-2024 12:14:22,5.257s,PASSED
+"tap(findTestObject(""Object Repository/Add to Cart All Products/android.widget.TextView - Baby Gear""), 0)",,,,13-02-2024 12:14:22,13-02-2024 12:14:25,3.467s,PASSED
+"tap(findTestObject(""Object Repository/Add to Cart All Products/android.widget.ImageView (1)""), 0)",,,,13-02-2024 12:14:25,13-02-2024 12:14:26,0.543s,PASSED
+"tap(findTestObject(""Object Repository/Add to Cart All Products/android.widget.Button - ADD TO CART""), 0)",,,,13-02-2024 12:14:26,13-02-2024 12:14:28,2.251s,PASSED
+"setText(findTestObject(""Object Repository/Add to Cart All Products/android.widget.EditText""), ""14"", 0)",,,,13-02-2024 12:14:28,13-02-2024 12:14:32,3.530s,PASSED
+"tap(findTestObject(""Object Repository/Add to Cart All Products/android.widget.Button - ADD""), 0)",,,,13-02-2024 12:14:32,13-02-2024 12:14:33,1.075s,PASSED
+pressBack(),,,,13-02-2024 12:14:33,13-02-2024 12:14:34,1.542s,PASSED
+pressBack(),,,,13-02-2024 12:14:34,13-02-2024 12:14:35,0.665s,PASSED
+Video,,,,13-02-2024 12:14:37,13-02-2024 12:14:37,0.001s,PASSED
+,,,,,,,
+Test Cases/Ubnormal/Add To Chart - Electronic - Out Of Stock,,,,13-02-2024 12:14:37,13-02-2024 12:15:12,34.578s,PASSED
+"startApplication(""C:\Users\masep\Documents\Bootcamp\Assignment\Mobile\Android-Solodroid_E-CommerceApp Demo_3.2.0.apk\Solodroid_E-CommerceApp Demo_3.2.0.apk"", true)",,,,13-02-2024 12:14:37,13-02-2024 12:14:50,12.687s,PASSED
+"tap(findTestObject(""Object Repository/Add to Cart/android.widget.FrameLayout""), 0)",,,,13-02-2024 12:14:50,13-02-2024 12:14:56,6.171s,PASSED
+"tap(findTestObject(""Object Repository/Add to Cart/android.widget.TextView - Electronics  Gadgets""), 0)",,,,13-02-2024 12:14:56,13-02-2024 12:14:57,0.887s,PASSED
+"tap(findTestObject(""Object Repository/Add to Cart/android.widget.ImageView""), 0)",,,,13-02-2024 12:14:57,13-02-2024 12:14:59,1.823s,PASSED
+"tap(findTestObject(""Object Repository/Add to Cart/android.widget.Button - ADD TO CART""), 0)",,,,13-02-2024 12:14:59,13-02-2024 12:15:02,3.141s,PASSED
+"setText(findTestObject(""Object Repository/Add to Cart/android.widget.EditText""), ""35"", 0)",,,,13-02-2024 12:15:02,13-02-2024 12:15:05,3.506s,PASSED
+"tap(findTestObject(""Object Repository/Add to Cart/android.widget.Button - ADD""), 0)",,,,13-02-2024 12:15:05,13-02-2024 12:15:06,1.262s,PASSED
+pressBack(),,,,13-02-2024 12:15:06,13-02-2024 12:15:08,1.535s,PASSED
+pressBack(),,,,13-02-2024 12:15:08,13-02-2024 12:15:09,1.421s,PASSED
+closeApplication(),,,,13-02-2024 12:15:09,13-02-2024 12:15:09,0.002s,NOT_RUN
+Video,,,,13-02-2024 12:15:12,13-02-2024 12:15:12,0.001s,PASSED
+,,,,,,,
+Test Cases/Ubnormal/CheckOut tapi tidak isi fields,,,,13-02-2024 12:15:12,13-02-2024 12:16:04,52.350s,PASSED
+"startApplication(""C:\Users\masep\Documents\Bootcamp\Assignment\Mobile\Android-Solodroid_E-CommerceApp Demo_3.2.0.apk\Solodroid_E-CommerceApp Demo_3.2.0.apk"", true)",,,,13-02-2024 12:15:12,13-02-2024 12:15:22,9.946s,PASSED
+"tap(findTestObject(""Object Repository/Add and CheckOut/android.widget.FrameLayout (1)""), 0)",,,,13-02-2024 12:15:22,13-02-2024 12:15:27,5.174s,PASSED
+"tap(findTestObject(""Object Repository/Add and CheckOut/android.widget.TextView - Office  Industry""), 0)",,,,13-02-2024 12:15:27,13-02-2024 12:15:30,3.375s,PASSED
+"tap(findTestObject(""Object Repository/Add and CheckOut/android.widget.ImageView""), 0)",,,,13-02-2024 12:15:30,13-02-2024 12:15:31,1.179s,PASSED
+"tap(findTestObject(""Object Repository/Add and CheckOut/android.widget.Button - ADD TO CART""), 0)",,,,13-02-2024 12:15:31,13-02-2024 12:15:34,2.634s,PASSED
+"setText(findTestObject(""Object Repository/Add and CheckOut/android.widget.EditText""), ""1"", 0)",,,,13-02-2024 12:15:34,13-02-2024 12:15:36,2.384s,PASSED
+"tap(findTestObject(""Object Repository/Add and CheckOut/android.widget.Button - ADD""), 0)",,,,13-02-2024 12:15:36,13-02-2024 12:15:37,0.849s,PASSED
+"tap(findTestObject(""Object Repository/Add and CheckOut/android.widget.TextView""), 0)",,,,13-02-2024 12:15:37,13-02-2024 12:15:38,1.058s,PASSED
+"tap(findTestObject(""Object Repository/Add and CheckOut/android.widget.Button - CHECKOUT""), 0)",,,,13-02-2024 12:15:38,13-02-2024 12:15:40,1.838s,PASSED
+"setText(findTestObject(""Object Repository/Add and CheckOut/android.widget.EditText - Your Name""), """", 0)",,,,13-02-2024 12:15:40,13-02-2024 12:15:45,4.486s,PASSED
+"setText(findTestObject(""Object Repository/Add and CheckOut/android.widget.EditText - your.emailgmail.com""), """", 0)",,,,13-02-2024 12:15:45,13-02-2024 12:15:48,3.426s,PASSED
+"setText(findTestObject(""Object Repository/Add and CheckOut/android.widget.EditText - Your Address""), """", 0)",,,,13-02-2024 12:15:48,13-02-2024 12:15:51,2.888s,PASSED
+hideKeyboard(),,,,13-02-2024 12:15:51,13-02-2024 12:15:54,2.682s,PASSED
+"setText(findTestObject(""Object Repository/Add and CheckOut/android.widget.EditText - Comment""), ""Test"", 0)",,,,13-02-2024 12:15:54,13-02-2024 12:15:57,3.140s,PASSED
+hideKeyboard(),,,,13-02-2024 12:15:57,13-02-2024 12:15:59,2.513s,PASSED
+"tap(findTestObject(""Object Repository/Add and CheckOut/android.widget.RelativeLayout""), 0)",,,,13-02-2024 12:15:59,13-02-2024 12:16:00,1.089s,PASSED
+closeApplication(),,,,13-02-2024 12:16:00,13-02-2024 12:16:02,1.468s,PASSED
+Video,,,,13-02-2024 12:16:04,13-02-2024 12:16:04,0.000s,PASSED

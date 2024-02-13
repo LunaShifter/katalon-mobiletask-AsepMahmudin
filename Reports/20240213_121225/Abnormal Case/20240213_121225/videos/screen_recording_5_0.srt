@@ -1,0 +1,68 @@
+1
+00:00:00,057 --> 00:00:09,992
+1. startApplication("C:\Users\masep\Documents\Bootcamp\Assignment\Mobile\Android-Solodroid_E-CommerceApp Demo_3.2.0.apk\Solodroid_E-CommerceApp Demo_3.2.0.apk", true)
+
+2
+00:00:10,002 --> 00:00:15,168
+5. tap(findTestObject("Object Repository/Add and CheckOut/android.widget.FrameLayout (1)"), 0)
+
+3
+00:00:15,177 --> 00:00:18,545
+9. tap(findTestObject("Object Repository/Add and CheckOut/android.widget.TextView - Office  Industry"), 0)
+
+4
+00:00:18,553 --> 00:00:19,726
+13. tap(findTestObject("Object Repository/Add and CheckOut/android.widget.ImageView"), 0)
+
+5
+00:00:19,734 --> 00:00:22,355
+17. tap(findTestObject("Object Repository/Add and CheckOut/android.widget.Button - ADD TO CART"), 0)
+
+6
+00:00:22,367 --> 00:00:24,725
+21. setText(findTestObject("Object Repository/Add and CheckOut/android.widget.EditText"), "1", 0)
+
+7
+00:00:24,752 --> 00:00:25,583
+25. tap(findTestObject("Object Repository/Add and CheckOut/android.widget.Button - ADD"), 0)
+
+8
+00:00:25,601 --> 00:00:26,644
+29. tap(findTestObject("Object Repository/Add and CheckOut/android.widget.TextView"), 0)
+
+9
+00:00:26,660 --> 00:00:28,489
+33. tap(findTestObject("Object Repository/Add and CheckOut/android.widget.Button - CHECKOUT"), 0)
+
+10
+00:00:28,500 --> 00:00:32,974
+37. setText(findTestObject("Object Repository/Add and CheckOut/android.widget.EditText - Your Name"), "", 0)
+
+11
+00:00:32,986 --> 00:00:36,390
+41. setText(findTestObject("Object Repository/Add and CheckOut/android.widget.EditText - your.emailgmail.com"), "", 0)
+
+12
+00:00:36,411 --> 00:00:39,279
+45. setText(findTestObject("Object Repository/Add and CheckOut/android.widget.EditText - Your Address"), "", 0)
+
+13
+00:00:39,302 --> 00:00:41,974
+49. hideKeyboard()
+
+14
+00:00:41,985 --> 00:00:45,101
+53. setText(findTestObject("Object Repository/Add and CheckOut/android.widget.EditText - Comment"), "Test", 0)
+
+15
+00:00:45,122 --> 00:00:47,626
+57. hideKeyboard()
+
+16
+00:00:47,639 --> 00:00:48,720
+61. tap(findTestObject("Object Repository/Add and CheckOut/android.widget.RelativeLayout"), 0)
+
+17
+00:00:48,729 --> 00:00:50,201
+65. closeApplication()
+

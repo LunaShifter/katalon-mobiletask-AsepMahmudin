@@ -1,0 +1,72 @@
+1
+00:00:00,058 --> 00:00:12,475
+1. startApplication("C:\Users\masep\Documents\Bootcamp\Assignment\Mobile\Android-Solodroid_E-CommerceApp Demo_3.2.0.apk\Solodroid_E-CommerceApp Demo_3.2.0.apk", true)
+
+2
+00:00:12,484 --> 00:00:18,533
+5. tap(findTestObject("Object Repository/Add To Cart _ CheckOut/android.widget.FrameLayout"), 0)
+
+3
+00:00:18,556 --> 00:00:20,874
+9. tap(findTestObject("Object Repository/Add To Cart _ CheckOut/android.widget.RelativeLayout"), 0)
+
+4
+00:00:20,883 --> 00:00:22,825
+13. tap(findTestObject("Object Repository/Add To Cart _ CheckOut/android.widget.ImageView"), 0)
+
+5
+00:00:22,839 --> 00:00:31,681
+17. tap(findTestObject("Object Repository/Add To Cart _ CheckOut/android.widget.Button - ADD TO CART"), 0)
+
+6
+00:00:31,698 --> 00:00:34,650
+21. setText(findTestObject("Object Repository/Add To Cart _ CheckOut/android.widget.EditText"), "2", 0)
+
+7
+00:00:34,668 --> 00:00:35,497
+25. tap(findTestObject("Object Repository/Add To Cart _ CheckOut/android.widget.Button - ADD"), 0)
+
+8
+00:00:35,514 --> 00:00:36,583
+29. tap(findTestObject("Object Repository/Add To Cart _ CheckOut/android.widget.TextView"), 0)
+
+9
+00:00:36,597 --> 00:00:40,373
+33. tap(findTestObject("Object Repository/Add To Cart _ CheckOut/android.widget.Button - CHECKOUT"), 0)
+
+10
+00:00:40,383 --> 00:00:43,676
+37. setText(findTestObject("Object Repository/Add To Cart _ CheckOut/android.widget.EditText - Your Name"), "Asep Mahmudin", 0)
+
+11
+00:00:43,686 --> 00:00:47,007
+41. setText(findTestObject("Object Repository/Add To Cart _ CheckOut/android.widget.EditText - your.emailgmail.com"), "workforaces@gmail.com", 0)
+
+12
+00:00:47,037 --> 00:00:49,885
+45. setText(findTestObject("Object Repository/Add To Cart _ CheckOut/android.widget.EditText - 628123456789"), "+6281224029880", 0)
+
+13
+00:00:49,908 --> 00:00:53,473
+49. setText(findTestObject("Object Repository/Add To Cart _ CheckOut/android.widget.EditText - Your Address"), "Cibadak - Sukabumi", 0)
+
+14
+00:00:53,485 --> 00:00:56,099
+53. hideKeyboard()
+
+15
+00:00:56,108 --> 00:01:00,236
+57. setText(findTestObject("Object Repository/Add To Cart _ CheckOut/android.widget.EditText - Comment"), "Task Mobile ", 0)
+
+16
+00:01:00,247 --> 00:01:02,780
+61. hideKeyboard()
+
+17
+00:01:02,797 --> 00:01:03,724
+65. tap(findTestObject("Object Repository/Add and CheckOut/android.widget.RelativeLayout"), 0)
+
+18
+00:01:03,735 --> 00:01:05,558
+69. closeApplication()
+

@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Normal Case" time="225.002" tests="5" failures="0" errors="0">
+   <testsuite name="Normal Case" tests="5" failures="0" errors="0" time="225.002" skipped="0" timestamp="13-02-2024T12:05:39" hostname="masep - MSI" id="Test Suites/Normal Case">
+      <properties>
+         <property name="deviceName" value="samsung SM-S911B (Android 14)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\masep\\git\\katalon-mobiletask-AsepMahmudin\\Reports\\20240213_120531\\Normal Case\\20240213_120531"/>
+         <property name="logFiles" value="C:\\Users\\masep\\git\\katalon-mobiletask-AsepMahmudin\\Reports\\20240213_120531\\Normal Case\\20240213_120531\\appium.log, C:\\Users\\masep\\git\\katalon-mobiletask-AsepMahmudin\\Reports\\20240213_120531\\Normal Case\\20240213_120531\\appium_error.log, C:\\Users\\masep\\git\\katalon-mobiletask-AsepMahmudin\\Reports\\20240213_120531\\Normal Case\\20240213_120531\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="masep - MSI"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;value&quot;:{&quot;ready&quot;:true,&quot;message&quot;:&quot;The server is ready to accept new connections&quot;,&quot;build&quot;:{&quot;version&quot;:&quot;2.5.0&quot;}}}"/>
+         <property name="katalonVersion" value="9.2.0.212"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="2.5.0"/>
+         <property name="deviceModel" value="SM-S911B"/>
+         <property name="hostAddress" value="172.16.213.166"/>
+         <property name="deviceManufacturer" value="samsung"/>
+         <property name="deviceId" value="RRCW201WHAZ"/>
+         <property name="deviceName" value="samsung SM-S911B (Android 14)"/>
+         <property name="deviceOSVersion" value="14"/>
+      </properties>
+      <testcase name="Test Cases/Normal/Add To Chart - Electronic" time="58.955" classname="Test Cases/Normal/Add To Chart - Electronic" status="PASSED">
+         <system-out><![CDATA[13-02-2024T12:05:39 - [TEST_CASE][PASSED] - Test Cases/Normal/Add To Chart - Electronic: Test Cases/Normal/Add To Chart - Electronic
+
+13-02-2024T12:05:40 - [TEST_STEP][PASSED] - startApplication("C:\Users\masep\Documents\Bootcamp\Assignment\Mobile\Android-Solodroid_E-CommerceApp Demo_3.2.0.apk\Solodroid_E-CommerceApp Demo_3.2.0.apk", true): Started app at: 'C:\Users\masep\Documents\Bootcamp\Assignment\Mobile\Android-Solodroid_E-CommerceApp Demo_3.2.0.apk\Solodroid_E-CommerceApp Demo_3.2.0.apk'
+
+13-02-2024T12:05:42 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+13-02-2024T12:05:47 - [MESSAGE][INFO] - PATH: C:\Program Files\nodejs;
+
+13-02-2024T12:05:47 - [MESSAGE][INFO] - APPIUM_HOME: C:\Users\masep\.appium
+
+13-02-2024T12:05:47 - [MESSAGE][INFO] - appium outlog: C:\Users\masep\git\katalon-mobiletask-AsepMahmudin\Reports\20240213_120531\Normal Case\20240213_120531\appium.log
+
+13-02-2024T12:05:47 - [MESSAGE][INFO] - appium errlog: C:\Users\masep\git\katalon-mobiletask-AsepMahmudin\Reports\20240213_120531\Normal Case\20240213_120531\appium_error.log
+
+13-02-2024T12:05:59 - [MESSAGE][INFO] - Appium server started on port 56,599
+
+13-02-2024T12:06:19 - [MESSAGE][PASSED] - Started app at: 'C:\Users\masep\Documents\Bootcamp\Assignment\Mobile\Android-Solodroid_E-CommerceApp Demo_3.2.0.apk\Solodroid_E-CommerceApp Demo_3.2.0.apk'
+
+13-02-2024T12:06:19 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Add to Cart/android.widget.FrameLayout"), 0): Tapped on element 'Object Repository/Add to Cart/android.widget.FrameLayout'
+
+13-02-2024T12:06:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2024T12:06:23 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Add to Cart/android.widget.FrameLayout'
+
+13-02-2024T12:06:23 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Add to Cart/android.widget.TextView - Electronics  Gadgets"), 0): Tapped on element 'Object Repository/Add to Cart/android.widget.TextView - Electronics  Gadgets'
+
+13-02-2024T12:06:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2024T12:06:24 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Add to Cart/android.widget.TextView - Electronics  Gadgets'
+
+13-02-2024T12:06:24 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Add to Cart/android.widget.ImageView"), 0): Tapped on element 'Object Repository/Add to Cart/android.widget.ImageView'
+
+13-02-2024T12:06:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2024T12:06:26 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Add to Cart/android.widget.ImageView'
+
+13-02-2024T12:06:26 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Add to Cart/android.widget.Button - ADD TO CART"), 0): Tapped on element 'Object Repository/Add to Cart/android.widget.Button - ADD TO CART'
+
+13-02-2024T12:06:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2024T12:06:30 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Add to Cart/android.widget.Button - ADD TO CART'
+
+13-02-2024T12:06:30 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Add to Cart/android.widget.EditText"), "2", 0): Text '2' has been set to element 'Object Repository/Add to Cart/android.widget.EditText'
+
+13-02-2024T12:06:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2024T12:06:32 - [MESSAGE][PASSED] - Text '2' has been set to element 'Object Repository/Add to Cart/android.widget.EditText'
+
+13-02-2024T12:06:32 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Add to Cart/android.widget.Button - ADD"), 0): Tapped on element 'Object Repository/Add to Cart/android.widget.Button - ADD'
+
+13-02-2024T12:06:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2024T12:06:33 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Add to Cart/android.widget.Button - ADD'
+
+13-02-2024T12:06:33 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+13-02-2024T12:06:34 - [MESSAGE][PASSED] - Press back button successfully
+
+13-02-2024T12:06:34 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+13-02-2024T12:06:36 - [MESSAGE][PASSED] - Press back button successfully
+
+13-02-2024T12:06:36 - [TEST_STEP][NOT_RUN] - closeApplication(): NOT_RUN: closeApplication()
+
+13-02-2024T12:06:36 - [MESSAGE][NOT_RUN] - NOT_RUN: closeApplication()
+
+13-02-2024T12:06:38 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/Normal/Add To Chart - Electronic' .
+
+13-02-2024T12:06:38 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/Normal/Add To Chart - Electronic' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Normal/Add To Cart - Fashions" time="31.634" classname="Test Cases/Normal/Add To Cart - Fashions" status="PASSED">
+         <system-out><![CDATA[13-02-2024T12:06:38 - [TEST_CASE][PASSED] - Test Cases/Normal/Add To Cart - Fashions: Test Cases/Normal/Add To Cart - Fashions
+
+13-02-2024T12:06:39 - [TEST_STEP][PASSED] - startApplication("C:\Users\masep\Documents\Bootcamp\Assignment\Mobile\Android-Solodroid_E-CommerceApp Demo_3.2.0.apk\Solodroid_E-CommerceApp Demo_3.2.0.apk", true): Started app at: 'C:\Users\masep\Documents\Bootcamp\Assignment\Mobile\Android-Solodroid_E-CommerceApp Demo_3.2.0.apk\Solodroid_E-CommerceApp Demo_3.2.0.apk'
+
+13-02-2024T12:06:48 - [MESSAGE][PASSED] - Started app at: 'C:\Users\masep\Documents\Bootcamp\Assignment\Mobile\Android-Solodroid_E-CommerceApp Demo_3.2.0.apk\Solodroid_E-CommerceApp Demo_3.2.0.apk'
+
+13-02-2024T12:06:48 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Add to Cart/android.widget.FrameLayout"), 0): Tapped on element 'Object Repository/Add to Cart/android.widget.FrameLayout'
+
+13-02-2024T12:06:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2024T12:06:54 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Add to Cart/android.widget.FrameLayout'
+
+13-02-2024T12:06:54 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Add to Cart All Products/android.widget.TextView - Fashions"), 0): Tapped on element 'Object Repository/Add to Cart All Products/android.widget.TextView - Fashions'
+
+13-02-2024T12:06:54 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2024T12:06:57 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Add to Cart All Products/android.widget.TextView - Fashions'
+
+13-02-2024T12:06:57 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Add to Cart All Products/android.widget.ImageView"), 0): Tapped on element 'Object Repository/Add to Cart All Products/android.widget.ImageView'
+
+13-02-2024T12:06:57 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2024T12:06:58 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Add to Cart All Products/android.widget.ImageView'
+
+13-02-2024T12:06:58 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Add to Cart All Products/android.widget.Button - ADD TO CART"), 0): Tapped on element 'Object Repository/Add to Cart All Products/android.widget.Button - ADD TO CART'
+
+13-02-2024T12:06:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2024T12:07:01 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Add to Cart All Products/android.widget.Button - ADD TO CART'
+
+13-02-2024T12:07:01 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Add to Cart All Products/android.widget.EditText"), "3", 0): Text '3' has been set to element 'Object Repository/Add to Cart All Products/android.widget.EditText'
+
+13-02-2024T12:07:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2024T12:07:04 - [MESSAGE][PASSED] - Text '3' has been set to element 'Object Repository/Add to Cart All Products/android.widget.EditText'
+
+13-02-2024T12:07:04 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Add to Cart All Products/android.widget.Button - ADD"), 0): Tapped on element 'Object Repository/Add to Cart All Products/android.widget.Button - ADD'
+
+13-02-2024T12:07:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2024T12:07:05 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Add to Cart All Products/android.widget.Button - ADD'
+
+13-02-2024T12:07:05 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+13-02-2024T12:07:07 - [MESSAGE][PASSED] - Press back button successfully
+
+13-02-2024T12:07:07 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+13-02-2024T12:07:08 - [MESSAGE][PASSED] - Press back button successfully
+
+13-02-2024T12:07:10 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/Normal/Add To Cart - Fashions' .
+
+13-02-2024T12:07:10 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/Normal/Add To Cart - Fashions' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Normal/Add To Cart - Furniture" time="35.471" classname="Test Cases/Normal/Add To Cart - Furniture" status="PASSED">
+         <system-out><![CDATA[13-02-2024T12:07:10 - [TEST_CASE][PASSED] - Test Cases/Normal/Add To Cart - Furniture: Test Cases/Normal/Add To Cart - Furniture
+
+13-02-2024T12:07:10 - [TEST_STEP][PASSED] - startApplication("C:\Users\masep\Documents\Bootcamp\Assignment\Mobile\Android-Solodroid_E-CommerceApp Demo_3.2.0.apk\Solodroid_E-CommerceApp Demo_3.2.0.apk", true): Started app at: 'C:\Users\masep\Documents\Bootcamp\Assignment\Mobile\Android-Solodroid_E-CommerceApp Demo_3.2.0.apk\Solodroid_E-CommerceApp Demo_3.2.0.apk'
+
+13-02-2024T12:07:23 - [MESSAGE][PASSED] - Started app at: 'C:\Users\masep\Documents\Bootcamp\Assignment\Mobile\Android-Solodroid_E-CommerceApp Demo_3.2.0.apk\Solodroid_E-CommerceApp Demo_3.2.0.apk'
+
+13-02-2024T12:07:23 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Add to Cart/android.widget.FrameLayout"), 0): Tapped on element 'Object Repository/Add to Cart/android.widget.FrameLayout'
+
+13-02-2024T12:07:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2024T12:07:29 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Add to Cart/android.widget.FrameLayout'
+
+13-02-2024T12:07:29 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Add to Cart All Products/android.widget.TextView - Home  Furniture"), 0): Tapped on element 'Object Repository/Add to Cart All Products/android.widget.TextView - Home  Furniture'
+
+13-02-2024T12:07:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2024T12:07:31 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Add to Cart All Products/android.widget.TextView - Home  Furniture'
+
+13-02-2024T12:07:31 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Add to Cart All Products/android.widget.ImageView (2)"), 0): Tapped on element 'Object Repository/Add to Cart All Products/android.widget.ImageView (2)'
+
+13-02-2024T12:07:31 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2024T12:07:33 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Add to Cart All Products/android.widget.ImageView (2)'
+
+13-02-2024T12:07:33 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Add to Cart All Products/android.widget.Button - ADD TO CART"), 0): Tapped on element 'Object Repository/Add to Cart All Products/android.widget.Button - ADD TO CART'
+
+13-02-2024T12:07:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2024T12:07:36 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Add to Cart All Products/android.widget.Button - ADD TO CART'
+
+13-02-2024T12:07:36 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Add to Cart All Products/android.widget.EditText"), "5", 0): Text '5' has been set to element 'Object Repository/Add to Cart All Products/android.widget.EditText'
+
+13-02-2024T12:07:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2024T12:07:39 - [MESSAGE][PASSED] - Text '5' has been set to element 'Object Repository/Add to Cart All Products/android.widget.EditText'
+
+13-02-2024T12:07:39 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Add to Cart All Products/android.widget.Button - ADD"), 0): Tapped on element 'Object Repository/Add to Cart All Products/android.widget.Button - ADD'
+
+13-02-2024T12:07:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2024T12:07:40 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Add to Cart All Products/android.widget.Button - ADD'
+
+13-02-2024T12:07:40 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+13-02-2024T12:07:42 - [MESSAGE][PASSED] - Press back button successfully
+
+13-02-2024T12:07:42 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+13-02-2024T12:07:43 - [MESSAGE][PASSED] - Press back button successfully
+
+13-02-2024T12:07:46 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/Normal/Add To Cart - Furniture' .
+
+13-02-2024T12:07:46 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/Normal/Add To Cart - Furniture' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Normal/Add To Chart - Baby Gear" time="30.824" classname="Test Cases/Normal/Add To Chart - Baby Gear" status="PASSED">
+         <system-out><![CDATA[13-02-2024T12:07:46 - [TEST_CASE][PASSED] - Test Cases/Normal/Add To Chart - Baby Gear: Test Cases/Normal/Add To Chart - Baby Gear
+
+13-02-2024T12:07:46 - [TEST_STEP][PASSED] - startApplication("C:\Users\masep\Documents\Bootcamp\Assignment\Mobile\Android-Solodroid_E-CommerceApp Demo_3.2.0.apk\Solodroid_E-CommerceApp Demo_3.2.0.apk", true): Started app at: 'C:\Users\masep\Documents\Bootcamp\Assignment\Mobile\Android-Solodroid_E-CommerceApp Demo_3.2.0.apk\Solodroid_E-CommerceApp Demo_3.2.0.apk'
+
+13-02-2024T12:07:56 - [MESSAGE][PASSED] - Started app at: 'C:\Users\masep\Documents\Bootcamp\Assignment\Mobile\Android-Solodroid_E-CommerceApp Demo_3.2.0.apk\Solodroid_E-CommerceApp Demo_3.2.0.apk'
+
+13-02-2024T12:07:56 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Add to Cart/android.widget.FrameLayout"), 0): Tapped on element 'Object Repository/Add to Cart/android.widget.FrameLayout'
+
+13-02-2024T12:07:56 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2024T12:08:02 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Add to Cart/android.widget.FrameLayout'
+
+13-02-2024T12:08:02 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Add to Cart All Products/android.widget.TextView - Baby Gear"), 0): Tapped on element 'Object Repository/Add to Cart All Products/android.widget.TextView - Baby Gear'
+
+13-02-2024T12:08:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2024T12:08:05 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Add to Cart All Products/android.widget.TextView - Baby Gear'
+
+13-02-2024T12:08:05 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Add to Cart All Products/android.widget.ImageView (1)"), 0): Tapped on element 'Object Repository/Add to Cart All Products/android.widget.ImageView (1)'
+
+13-02-2024T12:08:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2024T12:08:05 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Add to Cart All Products/android.widget.ImageView (1)'
+
+13-02-2024T12:08:05 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Add to Cart All Products/android.widget.Button - ADD TO CART"), 0): Tapped on element 'Object Repository/Add to Cart All Products/android.widget.Button - ADD TO CART'
+
+13-02-2024T12:08:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2024T12:08:07 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Add to Cart All Products/android.widget.Button - ADD TO CART'
+
+13-02-2024T12:08:07 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Add to Cart All Products/android.widget.EditText"), "4", 0): Text '4' has been set to element 'Object Repository/Add to Cart All Products/android.widget.EditText'
+
+13-02-2024T12:08:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2024T12:08:10 - [MESSAGE][PASSED] - Text '4' has been set to element 'Object Repository/Add to Cart All Products/android.widget.EditText'
+
+13-02-2024T12:08:10 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Add to Cart All Products/android.widget.Button - ADD"), 0): Tapped on element 'Object Repository/Add to Cart All Products/android.widget.Button - ADD'
+
+13-02-2024T12:08:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2024T12:08:12 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Add to Cart All Products/android.widget.Button - ADD'
+
+13-02-2024T12:08:12 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+13-02-2024T12:08:13 - [MESSAGE][PASSED] - Press back button successfully
+
+13-02-2024T12:08:13 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+13-02-2024T12:08:14 - [MESSAGE][PASSED] - Press back button successfully
+
+13-02-2024T12:08:16 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/Normal/Add To Chart - Baby Gear' .
+
+13-02-2024T12:08:16 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/Normal/Add To Chart - Baby Gear' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Normal/Add To Chart - Shoes" time="67.722" classname="Test Cases/Normal/Add To Chart - Shoes" status="PASSED">
+         <system-out><![CDATA[13-02-2024T12:08:16 - [TEST_CASE][PASSED] - Test Cases/Normal/Add To Chart - Shoes: Test Cases/Normal/Add To Chart - Shoes
+
+13-02-2024T12:08:16 - [TEST_STEP][PASSED] - startApplication("C:\Users\masep\Documents\Bootcamp\Assignment\Mobile\Android-Solodroid_E-CommerceApp Demo_3.2.0.apk\Solodroid_E-CommerceApp Demo_3.2.0.apk", true): Started app at: 'C:\Users\masep\Documents\Bootcamp\Assignment\Mobile\Android-Solodroid_E-CommerceApp Demo_3.2.0.apk\Solodroid_E-CommerceApp Demo_3.2.0.apk'
+
+13-02-2024T12:08:29 - [MESSAGE][PASSED] - Started app at: 'C:\Users\masep\Documents\Bootcamp\Assignment\Mobile\Android-Solodroid_E-CommerceApp Demo_3.2.0.apk\Solodroid_E-CommerceApp Demo_3.2.0.apk'
+
+13-02-2024T12:08:29 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Add To Cart _ CheckOut/android.widget.FrameLayout"), 0): Tapped on element 'Object Repository/Add To Cart _ CheckOut/android.widget.FrameLayout'
+
+13-02-2024T12:08:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2024T12:08:35 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Add To Cart _ CheckOut/android.widget.FrameLayout'
+
+13-02-2024T12:08:35 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Add To Cart _ CheckOut/android.widget.RelativeLayout"), 0): Tapped on element 'Object Repository/Add To Cart _ CheckOut/android.widget.RelativeLayout'
+
+13-02-2024T12:08:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2024T12:08:37 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Add To Cart _ CheckOut/android.widget.RelativeLayout'
+
+13-02-2024T12:08:37 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Add To Cart _ CheckOut/android.widget.ImageView"), 0): Tapped on element 'Object Repository/Add To Cart _ CheckOut/android.widget.ImageView'
+
+13-02-2024T12:08:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2024T12:08:39 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Add To Cart _ CheckOut/android.widget.ImageView'
+
+13-02-2024T12:08:39 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Add To Cart _ CheckOut/android.widget.Button - ADD TO CART"), 0): Tapped on element 'Object Repository/Add To Cart _ CheckOut/android.widget.Button - ADD TO CART'
+
+13-02-2024T12:08:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2024T12:08:48 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Add To Cart _ CheckOut/android.widget.Button - ADD TO CART'
+
+13-02-2024T12:08:48 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Add To Cart _ CheckOut/android.widget.EditText"), "2", 0): Text '2' has been set to element 'Object Repository/Add To Cart _ CheckOut/android.widget.EditText'
+
+13-02-2024T12:08:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2024T12:08:51 - [MESSAGE][PASSED] - Text '2' has been set to element 'Object Repository/Add To Cart _ CheckOut/android.widget.EditText'
+
+13-02-2024T12:08:51 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Add To Cart _ CheckOut/android.widget.Button - ADD"), 0): Tapped on element 'Object Repository/Add To Cart _ CheckOut/android.widget.Button - ADD'
+
+13-02-2024T12:08:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2024T12:08:52 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Add To Cart _ CheckOut/android.widget.Button - ADD'
+
+13-02-2024T12:08:52 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Add To Cart _ CheckOut/android.widget.TextView"), 0): Tapped on element 'Object Repository/Add To Cart _ CheckOut/android.widget.TextView'
+
+13-02-2024T12:08:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2024T12:08:53 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Add To Cart _ CheckOut/android.widget.TextView'
+
+13-02-2024T12:08:53 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Add To Cart _ CheckOut/android.widget.Button - CHECKOUT"), 0): Tapped on element 'Object Repository/Add To Cart _ CheckOut/android.widget.Button - CHECKOUT'
+
+13-02-2024T12:08:53 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2024T12:08:57 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Add To Cart _ CheckOut/android.widget.Button - CHECKOUT'
+
+13-02-2024T12:08:57 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Add To Cart _ CheckOut/android.widget.EditText - Your Name"), "Asep Mahmudin", 0): Text 'Asep Mahmudin' has been set to element 'Object Repository/Add To Cart _ CheckOut/android.widget.EditText - Your Name'
+
+13-02-2024T12:08:57 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2024T12:09:00 - [MESSAGE][PASSED] - Text 'Asep Mahmudin' has been set to element 'Object Repository/Add To Cart _ CheckOut/android.widget.EditText - Your Name'
+
+13-02-2024T12:09:00 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Add To Cart _ CheckOut/android.widget.EditText - your.emailgmail.com"), "workforaces@gmail.com", 0): Text 'workforaces@gmail.com' has been set to element 'Object Repository/Add To Cart _ CheckOut/android.widget.EditText - your.emailgmail.com'
+
+13-02-2024T12:09:00 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2024T12:09:03 - [MESSAGE][PASSED] - Text 'workforaces@gmail.com' has been set to element 'Object Repository/Add To Cart _ CheckOut/android.widget.EditText - your.emailgmail.com'
+
+13-02-2024T12:09:03 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Add To Cart _ CheckOut/android.widget.EditText - 628123456789"), "+6281224029880", 0): Text '+6281224029880' has been set to element 'Object Repository/Add To Cart _ CheckOut/android.widget.EditText - 628123456789'
+
+13-02-2024T12:09:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2024T12:09:06 - [MESSAGE][PASSED] - Text '+6281224029880' has been set to element 'Object Repository/Add To Cart _ CheckOut/android.widget.EditText - 628123456789'
+
+13-02-2024T12:09:06 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Add To Cart _ CheckOut/android.widget.EditText - Your Address"), "Cibadak - Sukabumi", 0): Text 'Cibadak - Sukabumi' has been set to element 'Object Repository/Add To Cart _ CheckOut/android.widget.EditText - Your Address'
+
+13-02-2024T12:09:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2024T12:09:10 - [MESSAGE][PASSED] - Text 'Cibadak - Sukabumi' has been set to element 'Object Repository/Add To Cart _ CheckOut/android.widget.EditText - Your Address'
+
+13-02-2024T12:09:10 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+13-02-2024T12:09:12 - [MESSAGE][PASSED] - Keyboard is hidden
+
+13-02-2024T12:09:12 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Add To Cart _ CheckOut/android.widget.EditText - Comment"), "Task Mobile ", 0): Text 'Task Mobile ' has been set to element 'Object Repository/Add To Cart _ CheckOut/android.widget.EditText - Comment'
+
+13-02-2024T12:09:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2024T12:09:17 - [MESSAGE][PASSED] - Text 'Task Mobile ' has been set to element 'Object Repository/Add To Cart _ CheckOut/android.widget.EditText - Comment'
+
+13-02-2024T12:09:17 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+13-02-2024T12:09:19 - [MESSAGE][PASSED] - Keyboard is hidden
+
+13-02-2024T12:09:19 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Add and CheckOut/android.widget.RelativeLayout"), 0): Tapped on element 'Object Repository/Add and CheckOut/android.widget.RelativeLayout'
+
+13-02-2024T12:09:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2024T12:09:20 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Add and CheckOut/android.widget.RelativeLayout'
+
+13-02-2024T12:09:20 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+13-02-2024T12:09:22 - [MESSAGE][PASSED] - Close app successfully
+
+13-02-2024T12:09:24 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/Normal/Add To Chart - Shoes' .
+
+13-02-2024T12:09:24 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/Normal/Add To Chart - Shoes' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[13-02-2024T12:05:39 - [TEST_SUITE][PASSED] - Normal Case: Test Cases/Normal/Add To Chart - Shoes]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
